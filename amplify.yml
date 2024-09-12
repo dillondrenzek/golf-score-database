@@ -18,7 +18,7 @@ frontend:
         - ng version
         - ng build --configuration=production
   artifacts:
-    baseDirectory: dist/golf-score-database/browser
+    baseDirectory: dist/amplify-angular-template/browser
     files:
       - '**/*'
   cache:
